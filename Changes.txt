@@ -1,0 +1,4 @@
+Revision history for Perl extension CGI::Echo.
+
+1.00  Thu Jan  6 12:37:29 2005
+	- original version

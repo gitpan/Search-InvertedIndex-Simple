@@ -1,0 +1,17 @@
+--- #YAML:1.0
+name: Search-InvertedIndex-Simple
+version: 1.00
+author:
+  - Ron Savage <ron@savage.net.au>
+abstract: Build indexes for a set of search keys
+license: artistic
+requires:
+  Set::Array: 0.12
+build_requires:
+  Test::More: 0
+  Test::Pod: 0
+provides:
+  Search::InvertedIndex::Simple:
+    file: lib/Search/InvertedIndex/Simple.pm
+    version: 1.00
+generated_by: Module::Build version 0.2607
