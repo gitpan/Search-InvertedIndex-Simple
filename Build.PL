@@ -12,6 +12,6 @@ Module::Build -> new
 	},
 	requires		=>
 	{
-		Set::Array	=> 0.12,
+		Set::Array	=> 0.19,
 	},
 ) -> create_build_script();

@@ -24,7 +24,7 @@ WriteMakefile
 	PL_FILES		=> {},
 	PREREQ_PM		=>
 	{
-		Set::Array	=> 0.12,
+		Set::Array	=> 0.19,
 		Test::More	=> 0,
 		Test::Pod	=> 0,
 	},

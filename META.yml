@@ -1,17 +1,24 @@
---- #YAML:1.0
-name: Search-InvertedIndex-Simple
-version: 1.00
+---
+abstract: 'Build indexes for a set of search keys'
 author:
-  - Ron Savage <ron@savage.net.au>
-abstract: Build indexes for a set of search keys
-license: artistic
-requires:
-  Set::Array: 0.12
+  - 'Ron Savage <ron@savage.net.au>'
 build_requires:
   Test::More: 0
   Test::Pod: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3603'
+license: artistic
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Search-InvertedIndex-Simple
 provides:
   Search::InvertedIndex::Simple:
     file: lib/Search/InvertedIndex/Simple.pm
-    version: 1.00
-generated_by: Module::Build version 0.2607
+    version: 1.03
+requires:
+  Set::Array: 0.19
+resources:
+  license: http://opensource.org/licenses/artistic-license.php
+version: 1.03

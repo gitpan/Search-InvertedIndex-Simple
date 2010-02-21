@@ -56,7 +56,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 
 );
-our $VERSION = '1.00';
+our $VERSION = '1.03';
 
 # -----------------------------------------------
 
@@ -323,17 +323,6 @@ and as secondary keys values generated (as explained above) from each hashref in
 
 It returns the hashref so created.
 
-=head1 Required Modules
-
-=over 4
-
-=item Set::Array V 0.12
-
-Warning: V 0.11 will not suffice, due to various bugs which stop it working on values that are zero.
-These values are needed since we are dealing with array indexes.
-
-=back
-
 =head1 Example code
 
 See t/test.t for a complete program.
@@ -346,8 +335,7 @@ Home page: http://savage.net.au/index.html
 
 =head1 Copyright
 
-Australian copyright (c) 2005, Ron Savage. All rights reserved.
-
+Australian copyright (c) 2005, Ron Savage.
 	All Programs of mine are 'OSI Certified Open Source Software';
 	you can redistribute them and/or modify them under the terms of
 	The Artistic License, a copy of which is available at:
