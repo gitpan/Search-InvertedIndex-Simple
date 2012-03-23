@@ -56,7 +56,7 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(
 
 );
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 
 # -----------------------------------------------
 
@@ -161,7 +161,7 @@ __END__
 
 =head1 NAME
 
-C<Search::InvertedIndex::Simple> - Build indexes for a set of search keys
+Search::InvertedIndex::Simple - Build indexes for a set of search keys
 
 =head1 Synopsis
 
